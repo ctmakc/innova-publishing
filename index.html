@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Innova Publishing · Open Digital Book Catalog</title>
+  <meta name="description" content="Innova Publishing digital library and catalog: open-access books, philosophical essays, and founder guides by Maksym Stepanenko. Direct downloads in EPUB, PDF, and DOCX.">
+  <meta name="author" content="Maksym Stepanenko">
+  <meta name="publisher" content="Innova Publishing">
+  <link rel="canonical" href="https://ctmakc.github.io/innova-publishing/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ctmakc.github.io/innova-publishing/">
+  <meta property="og:title" content="Innova Publishing · Open Digital Book Catalog">
+  <meta property="og:description" content="Open-access books and philosophical essays by Maksym Stepanenko. Free downloads in EPUB, PDF, DOCX.">
+  <meta property="og:image" content="https://ctmakc.github.io/innova-publishing/assets/tvorez-en/cover.jpg">
+  <meta property="og:site_name" content="Innova Publishing">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Innova Publishing",
+    "url": "https://ctmakc.github.io/innova-publishing/",
+    "description": "Open digital catalog of books, philosophical essays, and startup guides by Maksym Stepanenko.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Innova Publishing"
+    },
+    "hasPart": [
+      {
+        "@type": "Book",
+        "name": "The Creator: Beyond Obedience",
+        "author": "Maksym Stepanenko",
+        "url": "https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/",
+        "isAccessibleForFree": true,
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #fcfbfa;
+      --card-bg: #ffffff;
+      --text: #22252a;
+      --text-muted: #64748b;
+      --accent: #8b263e;
+      --accent-hover: #6e1c2f;
+      --border: #e2e8f0;
+      --btn-bg: #1e293b;
+      --btn-hover: #0f172a;
+      --tag-bg: #f1f5f9;
+      --shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #f1f5f9;
+        --text-muted: #94a3b8;
+        --accent: #f43f5e;
+        --accent-hover: #fb7185;
+        --border: #334155;
+        --btn-bg: #38bdf8;
+        --btn-hover: #0ea5e9;
+        --tag-bg: #334155;
+        --shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      padding: 0 1rem;
+    }
+    header {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 2rem 0 1.5rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 1.15rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .brand span { color: var(--accent); }
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--accent); }
+    main {
+      max-width: 1040px;
+      margin: 2.5rem auto 4rem;
+    }
+    .hero {
+      margin-bottom: 3rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+    .hero p {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 760px;
+    }
+    .catalog-section-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .catalog-section-title::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+    .book-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 2.5rem;
+      align-items: start;
+    }
+    @media (max-width: 768px) {
+      .book-card { grid-template-columns: 1fr; gap: 1.5rem; padding: 1.5rem; }
+    }
+    .book-card-cover {
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .book-card-cover img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background: rgba(139, 38, 62, 0.1);
+      color: var(--accent);
+      margin-bottom: 0.6rem;
+    }
+    .book-title {
+      font-size: 1.75rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 0.35rem;
+    }
+    .book-title a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .book-title a:hover {
+      color: var(--accent);
+    }
+    .book-author {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 1.15rem;
+    }
+    .book-desc {
+      font-size: 0.98rem;
+      color: var(--text);
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    .action-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.65rem 1.15rem;
+      border-radius: 8px;
+      font-size: 0.92rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #ffffff;
+    }
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+    .btn-secondary {
+      background: var(--tag-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover {
+      background: var(--border);
+    }
+    .btn-read {
+      background: var(--btn-bg);
+      color: #ffffff;
+    }
+    .btn-read:hover {
+      background: var(--btn-hover);
+    }
+    footer {
+      max-width: 1040px;
+      margin: 3rem auto 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    footer a { color: var(--text-muted); text-decoration: none; }
+    footer a:hover { color: var(--accent); text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://ctmakc.github.io/innova-publishing/" class="brand">
+      Innova <span>Publishing</span>
+    </a>
+    <nav>
+      <a href="https://ctmakc.github.io/innova-publishing/">Catalog</a>
+      <a href="https://tvorez.mmix.biz/book/en/" rel="dofollow">Read Online</a>
+      <a href="https://github.com/ctmakc/innova-publishing" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Innova Publishing Catalog</h1>
+      <p>Independent open-access publisher of philosophical essays, technological strategy, and founder guides. All works are released under open Creative Commons licenses for study, reflection, and open discussion.</p>
+    </section>
+
+    <h2 class="catalog-section-title">Featured Books & Essays</h2>
+
+    <article class="book-card">
+      <div class="book-card-cover">
+        <a href="the-creator-beyond-obedience/">
+          <img src="assets/tvorez-en/cover.jpg" alt="The Creator — Beyond Obedience Cover">
+        </a>
+      </div>
+
+      <div class="book-card-content">
+        <span class="badge">Open Edition · 2026</span>
+        <h3 class="book-title">
+          <a href="the-creator-beyond-obedience/">The Creator — Beyond Obedience</a>
+        </h3>
+        <p class="book-author">By <strong>Maksym Stepanenko</strong> · Innova Publishing</p>
+
+        <p class="book-desc">
+          Who has the right to decide what is good and what is evil? And does the power to create a world give anyone the right to dispose of the lives of those who live in it? The Creator: Beyond Obedience is a short philosophical essay about conscience, freedom, and the moral limits of power. It begins with Arjuna's hesitation on the battlefield of the Mahabharata and moves through Plato's Euthyphro dilemma, the ethics of creating minds, the nature of consciousness, and a speculative picture of future worlds in which creators stand beside one another instead of above.
+        </p>
+
+        <div class="action-row">
+          <a href="the-creator-beyond-obedience/" class="btn btn-primary">Book Details & TOC →</a>
+          <a href="https://tvorez.mmix.biz/book/en/" rel="dofollow" class="btn btn-read" target="_blank">Read Online Web Edition</a>
+          <a href="assets/tvorez-en/The-Creator-Beyond-Obedience.epub" download class="btn btn-secondary">EPUB</a>
+          <a href="assets/tvorez-en/The-Creator-Beyond-Obedience.pdf" download class="btn btn-secondary">PDF</a>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div>
+      © 2026 <a href="https://ctmakc.github.io/innova-publishing/">Innova Publishing</a>. Open digital publishing.
+    </div>
+    <div>
+      <a href="https://tvorez.mmix.biz/book/en/" rel="dofollow">Official Reader</a> &nbsp;·&nbsp;
+      <a href="https://github.com/ctmakc" target="_blank" rel="noopener">GitHub Profile</a>
+    </div>
+  </footer>
+</body>
+</html>

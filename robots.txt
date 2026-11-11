@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ctmakc.github.io/innova-publishing/sitemap.xml
