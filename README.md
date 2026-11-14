@@ -8,7 +8,18 @@ Open digital library and catalog of books, philosophical essays, and founder gui
 
 ## Published Works
 
-### 1. The Creator — Beyond Obedience
+### 1. How to Get a DUNS Number: A Step-by-Step Guide
+*By Maksym Stepanenko · 2026*
+
+- **Book Page:** [https://ctmakc.github.io/innova-publishing/how-to-get-a-duns-number/](https://ctmakc.github.io/innova-publishing/how-to-get-a-duns-number/)
+- **Read Online (Web Reader):** [https://guides.mmix.biz/en/duns/](https://guides.mmix.biz/en/duns/)
+- **License:** CC BY-NC-ND 4.0 International
+- **Formats available:** EPUB, PDF
+- **Description:** A practical guide to getting and using a DUNS number (D-U-N-S) to enter international markets. It explains why a company needs the Dun & Bradstreet global identifier, how to get a DUNS number for free in the United States, the EU, the United Kingdom, and Ukraine, and how it connects to the US federal System for Award Management and the UEI, the Apple Developer Program, the Paydex credit score, and government contracts. You get step-by-step instructions, checklists, and the typical mistakes to avoid. Translated from the Russian. Prepared with the help of AI tools.
+
+---
+
+### 2. The Creator — Beyond Obedience
 *By Maksym Stepanenko · 2026*
 
 - **Book Page:** [https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/](https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/)
