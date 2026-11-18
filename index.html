@@ -19,36 +19,47 @@
 
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Innova Publishing",
-    "url": "https://ctmakc.github.io/innova-publishing/",
-    "description": "Open digital catalog of books, philosophical essays, and startup guides by Maksym Stepanenko.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Innova Publishing"
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Innova Publishing",
+  "url": "https://ctmakc.github.io/innova-publishing/",
+  "description": "Open digital catalog of books, philosophical essays, and startup guides by Maksym Stepanenko.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Innova Publishing"
+  },
+  "hasPart": [
+    {
+      "@type": "Book",
+      "name": "The Creator: Beyond Obedience",
+      "author": "Maksym Stepanenko",
+      "url": "https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/",
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
     },
-    "hasPart": [
-      {
-        "@type": "Book",
-        "name": "The Creator: Beyond Obedience",
-        "author": "Maksym Stepanenko",
-        "url": "https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/",
-        "isAccessibleForFree": true,
-        "inLanguage": "en"
+    {
+      "@type": "Book",
+      "name": "How to Get a DUNS Number: A Step-by-Step Guide",
+      "author": "Maksym Stepanenko",
+      "url": "https://ctmakc.github.io/innova-publishing/how-to-get-a-duns-number/",
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Book",
+      "name": "Business Credit Score: From Zero to Paydex 80",
+      "author": {
+        "@type": "Person",
+        "name": "Maksym Stepanenko"
       },
-      {
-        "@type": "Book",
-        "name": "How to Get a DUNS Number: A Step-by-Step Guide",
-        "author": "Maksym Stepanenko",
-        "url": "https://ctmakc.github.io/innova-publishing/how-to-get-a-duns-number/",
-        "isAccessibleForFree": true,
-        "inLanguage": "en"
-      }
-    ]
-  }
-  </script>
+      "url": "https://ctmakc.github.io/innova-publishing/business-credit-score-from-zero-to-paydex-80/",
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
 
   <style>
     :root {
@@ -259,6 +270,10 @@
     }
     footer a { color: var(--text-muted); text-decoration: none; }
     footer a:hover { color: var(--accent); text-decoration: underline; }
+    .business-credit-card{grid-template-columns:320px 1fr;margin-bottom:2rem}
+    .catalog-download{display:none}
+    @media(max-width:768px){.business-credit-card{grid-template-columns:1fr}.business-credit-card .book-card-cover{width:250px;max-width:100%;margin:auto}.catalog-download{display:block;position:fixed;z-index:100;bottom:0;left:0;right:0;padding:12px 16px;background:var(--card-bg);border-top:1px solid var(--border);visibility:hidden;transform:translateY(110%)}.catalog-download.visible{visibility:visible;transform:none}.catalog-download a{display:flex;justify-content:center;min-height:48px}footer{padding-bottom:100px}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important}}
   </style>
 </head>
 <body>
@@ -280,6 +295,23 @@
     </section>
 
     <h2 class="catalog-section-title">Featured Books & Essays</h2>
+
+    <article class="book-card business-credit-card">
+      <div class="book-card-cover"><a href="business-credit-score-from-zero-to-paydex-80/"><img src="assets/guide-02-business-credit-en/cover.png" width="1600" height="2400" fetchpriority="high" alt="Cover of Business Credit Score: From Zero to Paydex 80 by Maksym Stepanenko"></a></div>
+      <div class="book-card-content">
+        <span class="badge">Guide No. 02 · English · Free ebook</span>
+        <h3 class="book-title"><a href="business-credit-score-from-zero-to-paydex-80/">Business Credit Score: From Zero to Paydex&nbsp;80</a></h3>
+        <p class="book-author">By <strong>Maksym Stepanenko</strong> · Innova Publishing</p>
+        <p class="book-desc">How US and international companies build a business credit history from absolute zero, and why it matters even if you never plan to borrow. The guide covers the Dun &amp; Bradstreet system, the Paydex score, net-30 trade credit, business credit cards without a personal guarantee, and a strategy for reaching a strong business credit rating in 6–12 months.</p>
+        <p class="book-desc">Translated from the Russian. Prepared with the help of AI tools.</p>
+        <div class="action-row">
+          <a href="business-credit-score-from-zero-to-paydex-80/" class="btn btn-primary">Book details &amp; contents →</a>
+          <a href="https://guides.mmix.biz/en/business-credit/" class="btn btn-read">Read online</a>
+          <a href="assets/guide-02-business-credit-en/book.epub" download="Business-Credit-Score-From-Zero-to-Paydex-80.epub" class="btn btn-secondary">EPUB</a>
+          <a href="assets/guide-02-business-credit-en/book.pdf" download="Business-Credit-Score-From-Zero-to-Paydex-80.pdf" class="btn btn-secondary">PDF</a>
+        </div>
+      </div>
+    </article>
 
     <article class="book-card">
       <div class="book-card-cover">
@@ -345,5 +377,7 @@
       <a href="https://github.com/ctmakc" target="_blank" rel="noopener">GitHub Profile</a>
     </div>
   </footer>
+<aside class="catalog-download" aria-label="Featured book"><a class="btn btn-primary" href="business-credit-score-from-zero-to-paydex-80/">Get free Business Credit book</a></aside>
+<script>(()=>{const bar=document.querySelector('.catalog-download');const update=()=>bar.classList.toggle('visible',scrollY>=innerHeight*.8);addEventListener('scroll',update,{passive:true});addEventListener('resize',update,{passive:true});update();})();</script>
 </body>
 </html>

@@ -8,7 +8,18 @@ Open digital library and catalog of books, philosophical essays, and founder gui
 
 ## Published Works
 
-### 1. How to Get a DUNS Number: A Step-by-Step Guide
+### 1. Business Credit Score: From Zero to Paydex 80
+*By Maksym Stepanenko · 2026*
+
+- **Book Page:** [https://ctmakc.github.io/innova-publishing/business-credit-score-from-zero-to-paydex-80/](https://ctmakc.github.io/innova-publishing/business-credit-score-from-zero-to-paydex-80/)
+- **Read Online (Web Reader):** [https://guides.mmix.biz/en/business-credit/](https://guides.mmix.biz/en/business-credit/)
+- **License:** CC BY-NC-ND 4.0 International
+- **Formats available:** EPUB, PDF
+- **Description:** How US and international companies build a business credit history from absolute zero, and why it matters even if you never plan to borrow. The guide covers the Dun & Bradstreet system, the Paydex score, net-30 trade credit, business credit cards without a personal guarantee, and a strategy for reaching a strong business credit rating in 6–12 months. Translated from the Russian. Prepared with the help of AI tools.
+
+---
+
+### 2. How to Get a DUNS Number: A Step-by-Step Guide
 *By Maksym Stepanenko · 2026*
 
 - **Book Page:** [https://ctmakc.github.io/innova-publishing/how-to-get-a-duns-number/](https://ctmakc.github.io/innova-publishing/how-to-get-a-duns-number/)
@@ -19,7 +30,7 @@ Open digital library and catalog of books, philosophical essays, and founder gui
 
 ---
 
-### 2. The Creator — Beyond Obedience
+### 3. The Creator — Beyond Obedience
 *By Maksym Stepanenko · 2026*
 
 - **Book Page:** [https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/](https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/)
