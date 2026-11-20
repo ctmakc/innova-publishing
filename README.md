@@ -8,7 +8,18 @@ Open digital library and catalog of books, philosophical essays, and founder gui
 
 ## Published Works
 
-### 1. Business Credit Score: From Zero to Paydex 80
+### 1. SAM.gov and US Government Contracts — How a small business wins federal tenders
+*By Maksym Stepanenko · 2026*
+
+- **Book Page:** [https://ctmakc.github.io/innova-publishing/sam-gov-and-us-government-contracts/](https://ctmakc.github.io/innova-publishing/sam-gov-and-us-government-contracts/)
+- **Read Online (Web Reader):** [https://guides.mmix.biz/en/samgov/](https://guides.mmix.biz/en/samgov/)
+- **License:** CC BY-NC-ND 4.0 International
+- **Formats available:** EPUB, PDF
+- **Description:** A practical guide to selling to the US federal government as a small business. It covers registration in the System for Award Management (SAM), UEI and CAGE codes, NAICS classification, set-aside programs such as 8(a), SDVOSB, WOSB, and HUBZone, contract search, capability statements, SBIR and STTR funding, proposal writing, and building relationships with contracting officers. Translated from the Russian. Prepared with the help of AI tools.
+
+---
+
+### 2. Business Credit Score: From Zero to Paydex 80
 *By Maksym Stepanenko · 2026*
 
 - **Book Page:** [https://ctmakc.github.io/innova-publishing/business-credit-score-from-zero-to-paydex-80/](https://ctmakc.github.io/innova-publishing/business-credit-score-from-zero-to-paydex-80/)
@@ -19,7 +30,7 @@ Open digital library and catalog of books, philosophical essays, and founder gui
 
 ---
 
-### 2. How to Get a DUNS Number: A Step-by-Step Guide
+### 3. How to Get a DUNS Number: A Step-by-Step Guide
 *By Maksym Stepanenko · 2026*
 
 - **Book Page:** [https://ctmakc.github.io/innova-publishing/how-to-get-a-duns-number/](https://ctmakc.github.io/innova-publishing/how-to-get-a-duns-number/)
@@ -30,7 +41,7 @@ Open digital library and catalog of books, philosophical essays, and founder gui
 
 ---
 
-### 3. The Creator — Beyond Obedience
+### 4. The Creator — Beyond Obedience
 *By Maksym Stepanenko · 2026*
 
 - **Book Page:** [https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/](https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/)

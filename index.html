@@ -32,6 +32,17 @@
   "hasPart": [
     {
       "@type": "Book",
+      "name": "SAM.gov and US Government Contracts",
+      "author": {
+        "@type": "Person",
+        "name": "Maksym Stepanenko"
+      },
+      "url": "https://ctmakc.github.io/innova-publishing/sam-gov-and-us-government-contracts/",
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Book",
       "name": "The Creator: Beyond Obedience",
       "author": "Maksym Stepanenko",
       "url": "https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/",
@@ -270,9 +281,9 @@
     }
     footer a { color: var(--text-muted); text-decoration: none; }
     footer a:hover { color: var(--accent); text-decoration: underline; }
-    .business-credit-card{grid-template-columns:320px 1fr;margin-bottom:2rem}
+    .samgov-card,.business-credit-card{grid-template-columns:320px 1fr;margin-bottom:2rem}
     .catalog-download{display:none}
-    @media(max-width:768px){.business-credit-card{grid-template-columns:1fr}.business-credit-card .book-card-cover{width:250px;max-width:100%;margin:auto}.catalog-download{display:block;position:fixed;z-index:100;bottom:0;left:0;right:0;padding:12px 16px;background:var(--card-bg);border-top:1px solid var(--border);visibility:hidden;transform:translateY(110%)}.catalog-download.visible{visibility:visible;transform:none}.catalog-download a{display:flex;justify-content:center;min-height:48px}footer{padding-bottom:100px}}
+    @media(max-width:768px){.samgov-card,.business-credit-card{grid-template-columns:1fr}.samgov-card .book-card-cover,.business-credit-card .book-card-cover{width:250px;max-width:100%;margin:auto}.catalog-download{display:block;position:fixed;z-index:100;bottom:0;left:0;right:0;padding:12px 16px;background:var(--card-bg);border-top:1px solid var(--border);visibility:hidden;transform:translateY(110%)}.catalog-download.visible{visibility:visible;transform:none}.catalog-download a{display:flex;justify-content:center;min-height:48px}footer{padding-bottom:100px}}
     @media(prefers-reduced-motion:reduce){*{transition:none!important}}
   </style>
 </head>
@@ -296,8 +307,25 @@
 
     <h2 class="catalog-section-title">Featured Books & Essays</h2>
 
+    <article class="book-card samgov-card">
+      <div class="book-card-cover"><a href="sam-gov-and-us-government-contracts/"><img src="assets/guide-03-samgov-en/cover.png" width="1600" height="2400" fetchpriority="high" alt="Cover of SAM.gov and US Government Contracts by Maksym Stepanenko"></a></div>
+      <div class="book-card-content">
+        <span class="badge">Guide No. 03 · English · Free ebook</span>
+        <h3 class="book-title"><a href="sam-gov-and-us-government-contracts/">SAM.gov and US Government Contracts: How a small business wins federal tenders</a></h3>
+        <p class="book-author">By <strong>Maksym Stepanenko</strong> · Innova Publishing</p>
+        <p class="book-desc">A practical guide to selling to the US federal government as a small business. It covers registration in the System for Award Management (SAM), UEI and CAGE codes, NAICS classification, set-aside programs such as 8(a), SDVOSB, WOSB, and HUBZone, contract search, capability statements, SBIR and STTR funding, proposal writing, and building relationships with contracting officers.</p>
+        <p class="book-desc">Translated from the Russian. Prepared with the help of AI tools.</p>
+        <div class="action-row">
+          <a href="sam-gov-and-us-government-contracts/" class="btn btn-primary">Book details &amp; contents →</a>
+          <a href="https://guides.mmix.biz/en/samgov/" rel="dofollow" class="btn btn-read">Read online</a>
+          <a href="assets/guide-03-samgov-en/book.epub" download="SAM-gov-and-US-Government-Contracts.epub" class="btn btn-secondary">EPUB</a>
+          <a href="assets/guide-03-samgov-en/book.pdf" download="SAM-gov-and-US-Government-Contracts.pdf" class="btn btn-secondary">PDF</a>
+        </div>
+      </div>
+    </article>
+
     <article class="book-card business-credit-card">
-      <div class="book-card-cover"><a href="business-credit-score-from-zero-to-paydex-80/"><img src="assets/guide-02-business-credit-en/cover.png" width="1600" height="2400" fetchpriority="high" alt="Cover of Business Credit Score: From Zero to Paydex 80 by Maksym Stepanenko"></a></div>
+      <div class="book-card-cover"><a href="business-credit-score-from-zero-to-paydex-80/"><img src="assets/guide-02-business-credit-en/cover.png" width="1600" height="2400" alt="Cover of Business Credit Score: From Zero to Paydex 80 by Maksym Stepanenko"></a></div>
       <div class="book-card-content">
         <span class="badge">Guide No. 02 · English · Free ebook</span>
         <h3 class="book-title"><a href="business-credit-score-from-zero-to-paydex-80/">Business Credit Score: From Zero to Paydex&nbsp;80</a></h3>
@@ -377,7 +405,7 @@
       <a href="https://github.com/ctmakc" target="_blank" rel="noopener">GitHub Profile</a>
     </div>
   </footer>
-<aside class="catalog-download" aria-label="Featured book"><a class="btn btn-primary" href="business-credit-score-from-zero-to-paydex-80/">Get free Business Credit book</a></aside>
+<aside class="catalog-download" aria-label="Featured book"><a class="btn btn-primary" href="sam-gov-and-us-government-contracts/">Get free SAM.gov book</a></aside>
 <script>(()=>{const bar=document.querySelector('.catalog-download');const update=()=>bar.classList.toggle('visible',scrollY>=innerHeight*.8);addEventListener('scroll',update,{passive:true});addEventListener('resize',update,{passive:true});update();})();</script>
 </body>
 </html>
