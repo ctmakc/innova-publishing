@@ -32,6 +32,17 @@
   "hasPart": [
     {
       "@type": "Book",
+      "name": "Starting a Business in Canada: From Idea to First Contract",
+      "author": {
+        "@type": "Person",
+        "name": "Maksym Stepanenko"
+      },
+      "url": "https://ctmakc.github.io/innova-publishing/starting-a-business-in-canada-from-idea-to-first-contract/",
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Book",
       "name": "SAM.gov and US Government Contracts",
       "author": {
         "@type": "Person",
@@ -281,9 +292,9 @@
     }
     footer a { color: var(--text-muted); text-decoration: none; }
     footer a:hover { color: var(--accent); text-decoration: underline; }
-    .samgov-card,.business-credit-card{grid-template-columns:320px 1fr;margin-bottom:2rem}
+    .canada-biz-card,.samgov-card,.business-credit-card{grid-template-columns:320px 1fr;margin-bottom:2rem}
     .catalog-download{display:none}
-    @media(max-width:768px){.samgov-card,.business-credit-card{grid-template-columns:1fr}.samgov-card .book-card-cover,.business-credit-card .book-card-cover{width:250px;max-width:100%;margin:auto}.catalog-download{display:block;position:fixed;z-index:100;bottom:0;left:0;right:0;padding:12px 16px;background:var(--card-bg);border-top:1px solid var(--border);visibility:hidden;transform:translateY(110%)}.catalog-download.visible{visibility:visible;transform:none}.catalog-download a{display:flex;justify-content:center;min-height:48px}footer{padding-bottom:100px}}
+    @media(max-width:768px){.canada-biz-card,.samgov-card,.business-credit-card{grid-template-columns:1fr}.canada-biz-card .book-card-cover,.samgov-card .book-card-cover,.business-credit-card .book-card-cover{width:250px;max-width:100%;margin:auto}.catalog-download{display:block;position:fixed;z-index:100;bottom:0;left:0;right:0;padding:12px 16px;background:var(--card-bg);border-top:1px solid var(--border);visibility:hidden;transform:translateY(110%)}.catalog-download.visible{visibility:visible;transform:none}.catalog-download a{display:flex;justify-content:center;min-height:48px}footer{padding-bottom:100px}}
     @media(prefers-reduced-motion:reduce){*{transition:none!important}}
   </style>
 </head>
@@ -307,8 +318,25 @@
 
     <h2 class="catalog-section-title">Featured Books & Essays</h2>
 
+    <article class="book-card canada-biz-card">
+      <div class="book-card-cover"><a href="starting-a-business-in-canada-from-idea-to-first-contract/"><img src="assets/guide-04-canada-biz-en/cover.png" width="1600" height="2400" fetchpriority="high" alt="Cover of Starting a Business in Canada: From Idea to First Contract by Maksym Stepanenko"></a></div>
+      <div class="book-card-content">
+        <span class="badge">Guide No. 04 · English · Free ebook</span>
+        <h3 class="book-title"><a href="starting-a-business-in-canada-from-idea-to-first-contract/">Starting a Business in Canada: From Idea to First Contract</a></h3>
+        <p class="book-author">By <strong>Maksym Stepanenko</strong> · Innova Publishing</p>
+        <p class="book-desc">A practical guide to setting up a business in Canada. It explains the federal and provincial registration layers, how to choose between a sole proprietorship, partnership, and corporation, and how to register with the Canada Revenue Agency and the Ontario Business Registry. It also covers opening a business bank account, the SR&amp;ED tax credit, government support programs, tax planning for a corporation, and serving international clients.</p>
+        <p class="book-desc">Translated from the Russian. Prepared with the help of AI tools.</p>
+        <div class="action-row">
+          <a href="starting-a-business-in-canada-from-idea-to-first-contract/" class="btn btn-primary">Book details &amp; contents →</a>
+          <a href="https://guides.mmix.biz/en/canada-biz/" rel="dofollow" class="btn btn-read">Read online</a>
+          <a href="assets/guide-04-canada-biz-en/book.epub" download="Starting-a-Business-in-Canada-From-Idea-to-First-Contract.epub" class="btn btn-secondary">EPUB</a>
+          <a href="assets/guide-04-canada-biz-en/book.pdf" download="Starting-a-Business-in-Canada-From-Idea-to-First-Contract.pdf" class="btn btn-secondary">PDF</a>
+        </div>
+      </div>
+    </article>
+
     <article class="book-card samgov-card">
-      <div class="book-card-cover"><a href="sam-gov-and-us-government-contracts/"><img src="assets/guide-03-samgov-en/cover.png" width="1600" height="2400" fetchpriority="high" alt="Cover of SAM.gov and US Government Contracts by Maksym Stepanenko"></a></div>
+      <div class="book-card-cover"><a href="sam-gov-and-us-government-contracts/"><img src="assets/guide-03-samgov-en/cover.png" width="1600" height="2400" alt="Cover of SAM.gov and US Government Contracts by Maksym Stepanenko"></a></div>
       <div class="book-card-content">
         <span class="badge">Guide No. 03 · English · Free ebook</span>
         <h3 class="book-title"><a href="sam-gov-and-us-government-contracts/">SAM.gov and US Government Contracts: How a small business wins federal tenders</a></h3>
@@ -405,7 +433,7 @@
       <a href="https://github.com/ctmakc" target="_blank" rel="noopener">GitHub Profile</a>
     </div>
   </footer>
-<aside class="catalog-download" aria-label="Featured book"><a class="btn btn-primary" href="sam-gov-and-us-government-contracts/">Get free SAM.gov book</a></aside>
+<aside class="catalog-download" aria-label="Featured book"><a class="btn btn-primary" href="starting-a-business-in-canada-from-idea-to-first-contract/">Get free Canada Business book</a></aside>
 <script>(()=>{const bar=document.querySelector('.catalog-download');const update=()=>bar.classList.toggle('visible',scrollY>=innerHeight*.8);addEventListener('scroll',update,{passive:true});addEventListener('resize',update,{passive:true});update();})();</script>
 </body>
 </html>

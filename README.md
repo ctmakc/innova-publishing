@@ -8,7 +8,18 @@ Open digital library and catalog of books, philosophical essays, and founder gui
 
 ## Published Works
 
-### 1. SAM.gov and US Government Contracts — How a small business wins federal tenders
+### 1. Starting a Business in Canada: From Idea to First Contract — Federal and provincial levels, the CRA, GST/HST, and your bank account
+*By Maksym Stepanenko · 2026*
+
+- **Book Page:** [https://ctmakc.github.io/innova-publishing/starting-a-business-in-canada-from-idea-to-first-contract/](https://ctmakc.github.io/innova-publishing/starting-a-business-in-canada-from-idea-to-first-contract/)
+- **Read Online (Web Reader):** [https://guides.mmix.biz/en/canada-biz/](https://guides.mmix.biz/en/canada-biz/)
+- **License:** CC BY-NC-ND 4.0 International
+- **Formats available:** EPUB, PDF
+- **Description:** A practical guide to setting up a business in Canada. It explains the federal and provincial registration layers, how to choose between a sole proprietorship, partnership, and corporation, and how to register with the Canada Revenue Agency and the Ontario Business Registry. It also covers opening a business bank account, the SR&ED tax credit, government support programs, tax planning for a corporation, and serving international clients. Translated from the Russian. Prepared with the help of AI tools.
+
+---
+
+### 2. SAM.gov and US Government Contracts — How a small business wins federal tenders
 *By Maksym Stepanenko · 2026*
 
 - **Book Page:** [https://ctmakc.github.io/innova-publishing/sam-gov-and-us-government-contracts/](https://ctmakc.github.io/innova-publishing/sam-gov-and-us-government-contracts/)
@@ -19,7 +30,7 @@ Open digital library and catalog of books, philosophical essays, and founder gui
 
 ---
 
-### 2. Business Credit Score: From Zero to Paydex 80
+### 3. Business Credit Score: From Zero to Paydex 80
 *By Maksym Stepanenko · 2026*
 
 - **Book Page:** [https://ctmakc.github.io/innova-publishing/business-credit-score-from-zero-to-paydex-80/](https://ctmakc.github.io/innova-publishing/business-credit-score-from-zero-to-paydex-80/)
@@ -30,7 +41,7 @@ Open digital library and catalog of books, philosophical essays, and founder gui
 
 ---
 
-### 3. How to Get a DUNS Number: A Step-by-Step Guide
+### 4. How to Get a DUNS Number: A Step-by-Step Guide
 *By Maksym Stepanenko · 2026*
 
 - **Book Page:** [https://ctmakc.github.io/innova-publishing/how-to-get-a-duns-number/](https://ctmakc.github.io/innova-publishing/how-to-get-a-duns-number/)
@@ -41,7 +52,7 @@ Open digital library and catalog of books, philosophical essays, and founder gui
 
 ---
 
-### 4. The Creator — Beyond Obedience
+### 5. The Creator — Beyond Obedience
 *By Maksym Stepanenko · 2026*
 
 - **Book Page:** [https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/](https://ctmakc.github.io/innova-publishing/the-creator-beyond-obedience/)
