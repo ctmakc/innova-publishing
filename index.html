@@ -32,6 +32,18 @@
   "hasPart": [
     {
       "@type": "Book",
+      "name": "AI Agents for Small Business: Automation Without a Programmer",
+      "author": {
+        "@type": "Person",
+        "name": "Maksym Stepanenko",
+        "@id": "https://ctmakc.github.io/innova-publishing/author/#author"
+      },
+      "url": "https://ctmakc.github.io/innova-publishing/ai-agents-for-small-business/",
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Book",
       "name": "Starting a Business in Canada: From Idea to First Contract",
       "author": {
         "@type": "Person",
@@ -292,9 +304,9 @@
     }
     footer a { color: var(--text-muted); text-decoration: none; }
     footer a:hover { color: var(--accent); text-decoration: underline; }
-    .canada-biz-card,.samgov-card,.business-credit-card{grid-template-columns:320px 1fr;margin-bottom:2rem}
+    .guide-card,.canada-biz-card,.samgov-card,.business-credit-card{grid-template-columns:320px 1fr;margin-bottom:2rem}
     .catalog-download{display:none}
-    @media(max-width:768px){.canada-biz-card,.samgov-card,.business-credit-card{grid-template-columns:1fr}.canada-biz-card .book-card-cover,.samgov-card .book-card-cover,.business-credit-card .book-card-cover{width:250px;max-width:100%;margin:auto}.catalog-download{display:block;position:fixed;z-index:100;bottom:0;left:0;right:0;padding:12px 16px;background:var(--card-bg);border-top:1px solid var(--border);visibility:hidden;transform:translateY(110%)}.catalog-download.visible{visibility:visible;transform:none}.catalog-download a{display:flex;justify-content:center;min-height:48px}footer{padding-bottom:100px}}
+    @media(max-width:768px){.guide-card,.canada-biz-card,.samgov-card,.business-credit-card{grid-template-columns:1fr}.guide-card .book-card-cover,.canada-biz-card .book-card-cover,.samgov-card .book-card-cover,.business-credit-card .book-card-cover{width:250px;max-width:100%;margin:auto}.catalog-download{display:block;position:fixed;z-index:100;bottom:0;left:0;right:0;padding:12px 16px;background:var(--card-bg);border-top:1px solid var(--border);visibility:hidden;transform:translateY(110%)}.catalog-download.visible{visibility:visible;transform:none}.catalog-download a{display:flex;justify-content:center;min-height:48px}footer{padding-bottom:100px}}
     @media(prefers-reduced-motion:reduce){*{transition:none!important}}
   </style>
 </head>
@@ -317,6 +329,23 @@
     </section>
 
     <h2 class="catalog-section-title">Featured Books & Essays</h2>
+
+    <article class="book-card guide-card">
+      <div class="book-card-cover"><a href="ai-agents-for-small-business/"><img src="assets/guide-05-ai-agents-en/cover.png" width="1600" height="2400" fetchpriority="high" alt="Cover of AI Agents for Small Business: Automation Without a Programmer by Maksym Stepanenko"></a></div>
+      <div class="book-card-content">
+        <span class="badge">Guide No. 05 · English · Free ebook</span>
+        <h3 class="book-title"><a href="ai-agents-for-small-business/">AI Agents for Small Business: Automation Without a Programmer</a></h3>
+        <p class="book-author">By <a href="author/" rel="author">Maksym Stepanenko</a> · Innova Publishing</p>
+        <p class="book-desc">A practical guide to automating business processes with AI agents, no programming skills required. You learn how to set up n8n for sales funnels, customer support, content production, and task management, with real automations that save 20–40 hours a week. It also covers prompt writing, building a customer support agent, the Make platform, GDPR and security, and measuring ROI.</p>
+        <p class="book-desc">Translated from the Russian. Prepared with the help of AI tools.</p>
+        <div class="action-row">
+          <a href="ai-agents-for-small-business/" class="btn btn-primary">Book details &amp; contents →</a>
+          <a href="https://guides.mmix.biz/en/ai-agents/" rel="dofollow" class="btn btn-read">Read online</a>
+          <a href="assets/guide-05-ai-agents-en/book.epub" download="AI-Agents-for-Small-Business.epub" class="btn btn-secondary">EPUB</a>
+          <a href="assets/guide-05-ai-agents-en/book.pdf" download="AI-Agents-for-Small-Business.pdf" class="btn btn-secondary">PDF</a>
+        </div>
+      </div>
+    </article>
 
     <article class="book-card canada-biz-card">
       <div class="book-card-cover"><a href="starting-a-business-in-canada-from-idea-to-first-contract/"><img src="assets/guide-04-canada-biz-en/cover.png" width="1600" height="2400" fetchpriority="high" alt="Cover of Starting a Business in Canada: From Idea to First Contract by Maksym Stepanenko"></a></div>
@@ -433,7 +462,7 @@
       <a href="https://github.com/ctmakc" target="_blank" rel="noopener">GitHub Profile</a>
     </div>
   </footer>
-<aside class="catalog-download" aria-label="Featured book"><a class="btn btn-primary" href="starting-a-business-in-canada-from-idea-to-first-contract/">Get free Canada Business book</a></aside>
+<aside class="catalog-download" aria-label="Featured book"><a class="btn btn-primary" href="ai-agents-for-small-business/">Get free AI Agents book</a></aside>
 <script>(()=>{const bar=document.querySelector('.catalog-download');const update=()=>bar.classList.toggle('visible',scrollY>=innerHeight*.8);addEventListener('scroll',update,{passive:true});addEventListener('resize',update,{passive:true});update();})();</script>
 </body>
 </html>
